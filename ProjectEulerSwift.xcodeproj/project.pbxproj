@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492DE93C1D94D4B7002DB1D7 /* Problem5.swift */; };
+		493206ED1D94C89B00268E3C /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493206EC1D94C89B00268E3C /* Problem4.swift */; };
 		49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB2C1D90DD8E00F48B3C /* main.swift */; };
 		49C1BB341D90DDFE00F48B3C /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB331D90DDFE00F48B3C /* Problem1.swift */; };
 		49C1BB361D90E33300F48B3C /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB351D90E33300F48B3C /* Problem2.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		492DE93C1D94D4B7002DB1D7 /* Problem5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
+		493206EC1D94C89B00268E3C /* Problem4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4.swift; sourceTree = "<group>"; };
 		49C1BB291D90DD8E00F48B3C /* ProjectEulerSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C1BB2C1D90DD8E00F48B3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49C1BB331D90DDFE00F48B3C /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				49C1BB331D90DDFE00F48B3C /* Problem1.swift */,
 				49C1BB351D90E33300F48B3C /* Problem2.swift */,
 				49C1BB371D90E61200F48B3C /* Problem3.swift */,
+				493206EC1D94C89B00268E3C /* Problem4.swift */,
+				492DE93C1D94D4B7002DB1D7 /* Problem5.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -103,6 +109,7 @@
 				TargetAttributes = {
 					49C1BB281D90DD8E00F48B3C = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,7 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C1BB361D90E33300F48B3C /* Problem2.swift in Sources */,
+				493206ED1D94C89B00268E3C /* Problem4.swift in Sources */,
 				49C1BB381D90E61200F48B3C /* Problem3.swift in Sources */,
+				492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */,
 				49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */,
 				49C1BB341D90DDFE00F48B3C /* Problem1.swift in Sources */,
 			);
@@ -262,6 +271,7 @@
 				49C1BB321D90DD8E00F48B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,7 @@ class Problem3{
     func largestPrimeFactor(n: Int) -> Int{
         var n = n //Swift 3 doesn't allow var parameters anymore.
         var largestPrimeFactor = -1
+        
         for i in stride(from: 3, to: Int(sqrt(Double(n))), by: 2){
             while(n % i == 0){
                 largestPrimeFactor = i
