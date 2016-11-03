@@ -12,7 +12,7 @@
 
 import Foundation
 
-var grid : [[Int]]?
+var grid = [[Int]]()
 
 class Problem11 {
     
@@ -39,54 +39,63 @@ class Problem11 {
         let row19 = [Int](arrayLiteral: 20, 73, 35, 29, 78, 31, 90, 1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 5, 54)
         let row20 = [Int](arrayLiteral: 1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48)
         
-        grid = [[Int]]()
-        grid?.append(row1)
-        grid?.append(row2)
-        grid?.append(row3)
-        grid?.append(row4)
-        grid?.append(row5)
-        grid?.append(row6)
-        grid?.append(row7)
-        grid?.append(row8)
-        grid?.append(row9)
-        grid?.append(row10)
-        grid?.append(row11)
-        grid?.append(row12)
-        grid?.append(row13)
-        grid?.append(row14)
-        grid?.append(row15)
-        grid?.append(row16)
-        grid?.append(row17)
-        grid?.append(row18)
-        grid?.append(row19)
-        grid?.append(row20)
+        grid.append(row1)
+        grid.append(row2)
+        grid.append(row3)
+        grid.append(row4)
+        grid.append(row5)
+        grid.append(row6)
+        grid.append(row7)
+        grid.append(row8)
+        grid.append(row9)
+        grid.append(row10)
+        grid.append(row11)
+        grid.append(row12)
+        grid.append(row13)
+        grid.append(row14)
+        grid.append(row15)
+        grid.append(row16)
+        grid.append(row17)
+        grid.append(row18)
+        grid.append(row19)
+        grid.append(row20)
     }
     
-    func ProductOfGrid(){
+    func ProductOfGrid() -> Int{
         //Check Up
         var largestProduct = -1
-        for row in 0...20{
-            for col in 0...20{
-                if col + 3 <= 20 {
-                    let num1 = grid?[row][col]
-                    let num2 = grid?[row][col + 1]
-                    let num3 = grid?[row][col + 2]
-                    let num4 = grid?[row][col + 3]
-                    let right = num1! * num2! * num3! * num4!
-                    largestProduct = right! > largestProduct ? right! : largestProduct
+        for row in 0...19{
+            for col in 0...19{
+                let index = grid[row][col]
+                var right = -1, left = -1, down = -1, up = -1, downRight = -1, downLeft = -1, upRight = -1, upLeft = -1
+                if col + 3 < 20 {
+                    right = index * grid[row][col + 1] * grid[row][col + 2] * grid[row][col + 3]
                 }
-                if col - 3 >= 0 && row < -11111111 {
-                    
+                if col - 3 >= 0 {
+                    left = index * grid[row][col - 1] * grid[row][col - 2] * grid[row][col - 3]
                 }
+                if row + 3 < 20 {
+                    down = index * grid[row + 1][col] * grid[row + 2][col] * grid[row + 3][col]
+                }
+                if row - 3 >= 0 {
+                    up = index * grid[row - 1][col] * grid[row - 2][col] * grid[row - 3][col]
+                }
+                if row + 3 < 20 && col + 3 < 20 {
+                    downRight = index * grid[row + 1][col + 1] * grid[row + 2][col + 2] * grid[row + 3][col + 3]
+                }
+                if row - 3 >= 0 && col + 3 < 20 {
+                    upRight = index * grid[row - 1][col + 1] * grid[row - 2][col + 2] * grid[row - 3][col + 3]
+                }
+                if row - 3 >= 0 && col - 3 >= 0 {
+                    upLeft = index * grid[row - 1][col - 1] * grid[row - 2][col - 2] * grid[row - 3][col - 3]
+                }
+                if row + 3 < 20 && col - 3 >= 0 {
+                    downLeft = index * grid[row + 1][col - 1] * grid[row + 2][col - 2] * grid[row + 3][col - 3]
+                }
+                largestProduct = max(largestProduct, right, left, down, up, downRight, upRight, upLeft, downLeft)
             }
         }
-        //Check Down
-        //Check Left
-        //Check Right
-        //Check Diagonal
+        return largestProduct
     }
     
-    func getGridSize() -> Int {
-        return (grid?.count)!
-    }
 }

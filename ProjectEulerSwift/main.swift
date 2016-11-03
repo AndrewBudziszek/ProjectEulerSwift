@@ -7,6 +7,7 @@
 //
 import Foundation
 
+/*
 //PROBLEM 1
 let p1 = Problem1()
 print("Problem 1: \(p1.sumMultiples(upTo: 999))")
@@ -49,4 +50,9 @@ print("Problem 10: \(p10.SumOfPrimesBelow(n: 2000000))")
 
 //Problem 11
 let p11 = Problem11()
-p11.ProductOfGrid()
+print("Problem 11: \(p11.ProductOfGrid())")
+*/
+
+//Problem 12
+let p12 = Problem12()
+print("Problem 12: \(p12.TriangleNumbers())")

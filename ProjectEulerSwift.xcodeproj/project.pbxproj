@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490B386C1DCAFC3200130FA5 /* Problem12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B386B1DCAFC3200130FA5 /* Problem12.swift */; };
 		492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492DE93C1D94D4B7002DB1D7 /* Problem5.swift */; };
 		493206ED1D94C89B00268E3C /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493206EC1D94C89B00268E3C /* Problem4.swift */; };
 		49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB2C1D90DD8E00F48B3C /* main.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490B386B1DCAFC3200130FA5 /* Problem12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem12.swift; sourceTree = "<group>"; };
 		492DE93C1D94D4B7002DB1D7 /* Problem5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
 		493206EC1D94C89B00268E3C /* Problem4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4.swift; sourceTree = "<group>"; };
 		49C1BB291D90DD8E00F48B3C /* ProjectEulerSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerSwift; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 				49C58B6A1DC3BFD600025745 /* Problem10.swift */,
 				49D1C24B1DC1AFCF00EEF114 /* Problem9.swift */,
 				49C58B6C1DC3C11800025745 /* Problem11.swift */,
+				490B386B1DCAFC3200130FA5 /* Problem12.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -125,7 +128,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Andrew Budziszek";
 				TargetAttributes = {
 					49C1BB281D90DD8E00F48B3C = {
@@ -161,6 +164,7 @@
 				49C1BB361D90E33300F48B3C /* Problem2.swift in Sources */,
 				49D1C2461DC17C1B00EEF114 /* Problem7.swift in Sources */,
 				49C58B6D1DC3C11800025745 /* Problem11.swift in Sources */,
+				490B386C1DCAFC3200130FA5 /* Problem12.swift in Sources */,
 				49D1C24C1DC1AFCF00EEF114 /* Problem9.swift in Sources */,
 				49C58B6B1DC3BFD600025745 /* Problem10.swift in Sources */,
 				49D1C24A1DC183B600EEF114 /* StringUtility.swift in Sources */,
@@ -194,6 +198,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -242,6 +247,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -261,6 +267,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
