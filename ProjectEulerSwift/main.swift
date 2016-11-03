@@ -21,8 +21,32 @@ print("Problem 3: \(p3.largestPrimeFactor(n: 600851475143))")
 
 //Problem 4
 let p4 = Problem4()
-print("Problem 4: \(p4.LargestPalindromeProduct3Digits())")
+//print("Problem 4: \(p4.LargestPalindromeProduct3Digits())")
 
 //Problem 5
 let p5 = Problem5()
-print("Problem 5: \(p5.SmallestMultiple())")
+//print("Problem 5: \(p5.SmallestMultiple())")
+
+//Problem 6
+let p6 = Problem6()
+print("Problem 6: \(p6.DifferenceSumSquares())")
+
+//Problem 7
+let p7 = Problem7()
+print("Problem 7: \(p7.NthPrimeNumber(num: 10001))")
+
+//Problem 8
+let p8 = Problem8()
+print("Problem 8: \(p8.AdjacentProduct())")
+
+//Problem 9
+let p9 = Problem9()
+print("Problem 9: \(p9.PythagoreanTriplet())")
+
+//Problem 10
+let p10 = Problem10()
+print("Problem 10: \(p10.SumOfPrimesBelow(n: 2000000))")
+
+//Problem 11
+let p11 = Problem11()
+p11.ProductOfGrid()
