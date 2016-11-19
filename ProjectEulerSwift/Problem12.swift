@@ -40,7 +40,7 @@ class Problem12 {
                 numToAdd += 1
             }
             numDivisors = 0
-            for i in 1...Int(sqrt(Double(currentNum))){
+            for i in 1...currentNum.squareroot(){
                 numDivisors = currentNum % i == 0 ? numDivisors + 1 : numDivisors
             }
             numDivisors = numDivisors * 2

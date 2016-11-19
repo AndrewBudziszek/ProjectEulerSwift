@@ -9,7 +9,7 @@
 
 import Foundation
 
-class Problem10{
+class Problem10 {
     func SumOfPrimesBelow(n : Int) -> Int {
         var sumOfPrimes = 0
         for i in 1...n {

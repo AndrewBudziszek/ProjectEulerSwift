@@ -60,4 +60,5 @@ extension String {
             }
         }
         return -1
-    }}
+    }
+}
