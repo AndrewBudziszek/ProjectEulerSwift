@@ -12,6 +12,7 @@
 //
 
 class Problem2{
+    
     func FibonacciThis(upTo: Int) -> Int {
         var sum = 0
         var last = 1
@@ -28,4 +29,5 @@ class Problem2{
         
         return sum
     }
+    
 }

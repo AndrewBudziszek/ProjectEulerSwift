@@ -17,6 +17,7 @@ var grid = [[Int]]()
 class Problem11 {
     
     init() {
+        
         //Initialize 20x20 grid found at https://projecteuler.net/problem=11
         let row1 = [Int](arrayLiteral: 8, 2, 22, 97, 28, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8)
         let row2 = [Int](arrayLiteral: 49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 4, 56, 62, 0)
@@ -62,8 +63,8 @@ class Problem11 {
     }
     
     func ProductOfGrid() -> Int{
-        //Check Up
         var largestProduct = -1
+        
         for row in 0...19{
             for col in 0...19{
                 let index = grid[row][col]
@@ -95,7 +96,9 @@ class Problem11 {
                 largestProduct = max(largestProduct, right, left, down, up, downRight, upRight, upLeft, downLeft)
             }
         }
+        
         return largestProduct
+        
     }
     
 }

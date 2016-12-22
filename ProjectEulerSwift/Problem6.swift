@@ -18,6 +18,7 @@
 import Foundation
 
 class Problem6 {
+    
     func DifferenceSumSquares() -> Int{
         var sumOfSquares = 0
         var squareOfSum = 0
@@ -30,4 +31,5 @@ class Problem6 {
         
         return squareOfSum - sumOfSquares
     }
+    
 }

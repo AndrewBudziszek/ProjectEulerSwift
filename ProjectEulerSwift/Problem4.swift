@@ -13,6 +13,7 @@
 import Foundation
 
 class Problem4 {
+    
     func LargestPalindromeProduct3Digits() -> Int {
         var largestPalindrome = -1
         
@@ -27,4 +28,5 @@ class Problem4 {
         }
         return largestPalindrome
     }
+    
 }

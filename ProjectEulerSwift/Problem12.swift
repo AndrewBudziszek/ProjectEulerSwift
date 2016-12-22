@@ -27,6 +27,7 @@ What is the value of the first triangle number to have over five hundred divisor
 import Foundation
 
 class Problem12 {
+    
     func TriangleNumbers() -> Int {
         var numDivisors = -1
         var currentNum = 0
@@ -47,4 +48,5 @@ class Problem12 {
         }
         return currentNum
     }
+    
 }

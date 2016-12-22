@@ -88,12 +88,32 @@ print("Problem 15: \(p15.LatticePathCombinations()) (\(Double(DispatchTime.now()
 start = DispatchTime.now()
 let p16 = Problem16()
 print("Problem 16: \(p16.PowerDigitSum()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
-*/
 
 //Problem 17
 start = DispatchTime.now()
 let p17 = Problem17()
 print("Problem 17: \(p17.NumberLetterCounts()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem18
+start = DispatchTime.now()
+let p18 = Problem18()
+print("Problem 18: \(p18.findSum()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem19
+start = DispatchTime.now()
+let p19 = Problem19()
+print("Problem 19: \(p19.countSundays()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
  
- 
- 
+//Problem20
+start = DispatchTime.now()
+let p20 = Problem20()
+print("Problem 20: \(p20.findSum()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem21
+start = DispatchTime.now()
+let p21 = Problem21()
+
+print("Problem 21: \(p21.AmicableNumbers()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+*/
+
+

@@ -18,11 +18,11 @@ import Foundation
 
 class Problem9{
     func PythagoreanTriplet() -> Int {
-
         var c : Int = -1
+        
         for a in 0...1000{
             for b in 0...1000{
-                c = Int(sqrt(Double((a ^^ 2) + (b ^^ 2))))
+                c = Int(sqrt(Double((a^^2) + (b^^2))))
                 if a + b + c == 1000 && (a < b && b < c) && (a^^2) + (b^^2) == (c^^2){
                     return a * b * c
                 }

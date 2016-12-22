@@ -24,6 +24,7 @@
 import Foundation
 
 class Problem14 {
+    
     func CollatzNumber() -> Int{
         var largestCollatzSequence = -1
         var largestCollatzSeqNumber = -1
@@ -42,4 +43,5 @@ class Problem14 {
         }    
         return largestCollatzSeqNumber
     }
+    
 }

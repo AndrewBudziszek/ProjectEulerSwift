@@ -13,6 +13,7 @@
 import Foundation
 
 class Problem3{
+    
     func largestPrimeFactor(n: Int) -> Int{
         var n = n //Swift 3 doesn't allow var parameters anymore.
         var largestPrimeFactor = -1
@@ -26,4 +27,5 @@ class Problem3{
 
         return largestPrimeFactor
     }
+    
 }

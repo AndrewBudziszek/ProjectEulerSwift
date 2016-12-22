@@ -17,10 +17,10 @@
 import Foundation
 
 class Problem17 {
+    
     func NumberLetterCounts() -> Int {
         let singleArr = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
         let tensArr = ["", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
-        
         var numberAggregator = ""
         
         for i in 1..<1000 {
@@ -28,6 +28,7 @@ class Problem17 {
             let tensPlace = i % 100 < 20 && i % 100 >= 10 ? singleArr[i % 100] : tensArr[((i / 10) % 10)]
             let hundredPlace = singleArr[((i / 100) % 10)]
             var numToAdd = ""
+            
             if ((i / 100) % 10) > 0 {
                 numToAdd += hundredPlace + "hundred"
                 if i > 100 && i % 100 != 0 {
@@ -35,9 +36,12 @@ class Problem17 {
                 }
             }
             numToAdd += tensPlace + singlePlace
+            print(numToAdd)
             numberAggregator += numToAdd
         }
+        
         numberAggregator += "onethousand"
         return numberAggregator.characters.count
+        
     }
 }

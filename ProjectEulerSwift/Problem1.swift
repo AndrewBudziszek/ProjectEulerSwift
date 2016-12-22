@@ -12,10 +12,12 @@
 //
 
 class Problem1 {
+    
     func sumMultiples(upTo: Int) -> Int {
         if(upTo < 3){
             return 0
         }
         return upTo % 3 == 0 || upTo % 5 == 0 ? sumMultiples(upTo: upTo - 1) + upTo : sumMultiples(upTo: upTo - 1)
     }
+    
 }

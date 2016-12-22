@@ -25,6 +25,11 @@
 		49D1C2481DC1809500EEF114 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1C2471DC1809500EEF114 /* Problem8.swift */; };
 		49D1C24A1DC183B600EEF114 /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1C2491DC183B600EEF114 /* StringUtility.swift */; };
 		49D1C24C1DC1AFCF00EEF114 /* Problem9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1C24B1DC1AFCF00EEF114 /* Problem9.swift */; };
+		49F21D4A1E0B983400AA36B6 /* Problem19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F21D491E0B983400AA36B6 /* Problem19.swift */; };
+		49F21D4C1E0BA5A600AA36B6 /* Problem20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F21D4B1E0BA5A600AA36B6 /* Problem20.swift */; };
+		49F21D4F1E0BA78C00AA36B6 /* Problem21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */; };
+		49F63E4F1DE0E8BB00C44698 /* Problem18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F63E4E1DE0E8BB00C44698 /* Problem18.swift */; };
+		49F63E511DE0EBFE00C44698 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F63E501DE0EBFE00C44698 /* Node.swift */; };
 		49F793301DD0387200FD6217 /* IntUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7932F1DD0387200FD6217 /* IntUtility.swift */; };
 		49F793321DD039F500FD6217 /* Problem13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F793311DD039F500FD6217 /* Problem13.swift */; };
 		E211B912616E6EC9B32F8508 /* Pods_ProjectEulerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B730F1A41C089B27ED25CDE /* Pods_ProjectEulerSwift.framework */; };
@@ -65,6 +70,14 @@
 		49D1C2471DC1809500EEF114 /* Problem8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
 		49D1C2491DC183B600EEF114 /* StringUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
 		49D1C24B1DC1AFCF00EEF114 /* Problem9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem9.swift; sourceTree = "<group>"; };
+		49F21D471E0B95F500AA36B6 /* Problem18.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Problem18.py; sourceTree = "<group>"; };
+		49F21D481E0B95F900AA36B6 /* Problem18Data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Problem18Data.txt; sourceTree = "<group>"; };
+		49F21D491E0B983400AA36B6 /* Problem19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem19.swift; sourceTree = "<group>"; };
+		49F21D4B1E0BA5A600AA36B6 /* Problem20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem20.swift; sourceTree = "<group>"; };
+		49F21D4D1E0BA5CF00AA36B6 /* Problem20.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Problem20.py; sourceTree = "<group>"; };
+		49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem21.swift; sourceTree = "<group>"; };
+		49F63E4E1DE0E8BB00C44698 /* Problem18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem18.swift; sourceTree = "<group>"; };
+		49F63E501DE0EBFE00C44698 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		49F7932F1DD0387200FD6217 /* IntUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntUtility.swift; sourceTree = "<group>"; };
 		49F793311DD039F500FD6217 /* Problem13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem13.swift; sourceTree = "<group>"; };
 		6B730F1A41C089B27ED25CDE /* Pods_ProjectEulerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEulerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +130,7 @@
 				49C1BB2C1D90DD8E00F48B3C /* main.swift */,
 				49F7932F1DD0387200FD6217 /* IntUtility.swift */,
 				49D1C2491DC183B600EEF114 /* StringUtility.swift */,
+				49F63E501DE0EBFE00C44698 /* Node.swift */,
 				49C1BB331D90DDFE00F48B3C /* Problem1.swift */,
 				49C1BB351D90E33300F48B3C /* Problem2.swift */,
 				49C1BB371D90E61200F48B3C /* Problem3.swift */,
@@ -137,6 +151,13 @@
 				495321BD1DD2884000035D54 /* Problem16.swift */,
 				495321BF1DD28AC300035D54 /* Problem16.py */,
 				495321C01DD28B5E00035D54 /* Problem17.swift */,
+				49F63E4E1DE0E8BB00C44698 /* Problem18.swift */,
+				49F21D481E0B95F900AA36B6 /* Problem18Data.txt */,
+				49F21D471E0B95F500AA36B6 /* Problem18.py */,
+				49F21D491E0B983400AA36B6 /* Problem19.swift */,
+				49F21D4B1E0BA5A600AA36B6 /* Problem20.swift */,
+				49F21D4D1E0BA5CF00AA36B6 /* Problem20.py */,
+				49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -246,6 +267,9 @@
 				49F793301DD0387200FD6217 /* IntUtility.swift in Sources */,
 				49D1C2481DC1809500EEF114 /* Problem8.swift in Sources */,
 				49C1BB361D90E33300F48B3C /* Problem2.swift in Sources */,
+				49F63E511DE0EBFE00C44698 /* Node.swift in Sources */,
+				49F63E4F1DE0E8BB00C44698 /* Problem18.swift in Sources */,
+				49F21D4C1E0BA5A600AA36B6 /* Problem20.swift in Sources */,
 				49D1C2461DC17C1B00EEF114 /* Problem7.swift in Sources */,
 				49C58B6D1DC3C11800025745 /* Problem11.swift in Sources */,
 				490B386C1DCAFC3200130FA5 /* Problem12.swift in Sources */,
@@ -254,7 +278,9 @@
 				49D1C24A1DC183B600EEF114 /* StringUtility.swift in Sources */,
 				493206ED1D94C89B00268E3C /* Problem4.swift in Sources */,
 				49D1C2441DC1782D00EEF114 /* Problem6.swift in Sources */,
+				49F21D4A1E0B983400AA36B6 /* Problem19.swift in Sources */,
 				495321C11DD28B5E00035D54 /* Problem17.swift in Sources */,
+				49F21D4F1E0BA78C00AA36B6 /* Problem21.swift in Sources */,
 				495321BB1DD1383F00035D54 /* Problem15.swift in Sources */,
 				49C1BB381D90E61200F48B3C /* Problem3.swift in Sources */,
 				492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */,

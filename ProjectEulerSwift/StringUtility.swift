@@ -9,6 +9,7 @@
 import Foundation
 
 extension String {
+    
     func charAt(_ n: Int) -> String {
         if n > self.characters.count - 1 || n < 0 {
             return ""
@@ -61,4 +62,5 @@ extension String {
         }
         return -1
     }
+    
 }

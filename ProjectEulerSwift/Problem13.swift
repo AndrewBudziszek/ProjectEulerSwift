@@ -10,10 +10,11 @@
 import Foundation
 
 class Problem13 {
-    //Unfortunatly, Swift doesn't play well with large numbers. I instead completed this problem
-    //with Python. 
+    //Unfortunatly, Swift doesn't play well with large numbers. I completed this problem
+    //with Python instead. 
     
     func SumOfLargeNumbers() -> String {
         return "Problem 13: DONE IN PYTHON. SEE Problem13.py"
     }
+    
 }

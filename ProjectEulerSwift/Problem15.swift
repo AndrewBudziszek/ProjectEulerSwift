@@ -16,6 +16,7 @@ How many such routes are there through a 20×20 grid?
 import Foundation
 
 class Problem15 {
+    
     //Lattice Path Explanation - https://en.wikipedia.org/wiki/Lattice_path (n+k) choose n
     func LatticePathCombinations() -> String {
         return "Problem 15: DONE IN PYTHON. SEE Problem15.py"
@@ -27,4 +28,5 @@ class Problem15 {
         }
         return n * factorial(n - 1)
     }
+
 }

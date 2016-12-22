@@ -10,6 +10,7 @@
 import Foundation
 
 class Problem5{
+    
     func SmallestMultiple() -> Int {
         var i = 1
         while true {
@@ -24,4 +25,5 @@ class Problem5{
             i += 1
         }
     }
+    
 }

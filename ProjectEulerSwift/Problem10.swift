@@ -10,35 +10,15 @@
 import Foundation
 
 class Problem10 {
+    
     func SumOfPrimesBelow(n : Int) -> Int {
         var sumOfPrimes = 0
         for i in 1...n {
-            if isPrime(num: i) {
+            if i.isPrime() {
                 sumOfPrimes += i
             }
         }
         return sumOfPrimes
     }
     
-    //Algorithm derived from Wikipedia Pseudocode - https://en.wikipedia.org/wiki/Primality_test
-    private func isPrime(num : Int) -> Bool {
-        
-        if num <= 1{
-            return false
-        }else if num <= 3{
-            return true
-        }else if num % 2 == 0 || num % 3 == 0 {
-            return false
-        }
-        
-        var i = 5
-        while i * i <= num {
-            if num % i == 0 || num % (i + 2) == 0 {
-                return false
-            }
-            i = i + 6
-        }
-        
-        return true
-    }
 }
