@@ -116,4 +116,10 @@ let p21 = Problem21()
 print("Problem 21: \(p21.AmicableNumbers()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 */
 
+//Problem22
+start = DispatchTime.now()
+let p22 = Problem22()
+
+print("Problem 22: \(p22.nameScores()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
 

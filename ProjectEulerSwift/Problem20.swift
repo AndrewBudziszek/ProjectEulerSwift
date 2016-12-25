@@ -18,7 +18,7 @@ class Problem20 {
     
     func findSum() -> String {
         //Done in Python due to integer limit in Swift
-        return "Problem 20: DONE IN PYTHON. SEE Problem18.py"
+        return "Problem 20: DONE IN PYTHON. SEE Problem20.py"
     }
     
 }

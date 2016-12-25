@@ -41,7 +41,7 @@ class Problem18 {
     
     func findSum() -> String {
         //Done in Python
-        return "Problem 18: DONE IN PYTHON. SEE Problem18.py"
+        return "Problem 20: DONE IN PYTHON. SEE Problem20.py"
     }
     
 }

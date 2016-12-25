@@ -11,6 +11,7 @@
 		4922205F1DD044D800C19364 /* Problem14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922205E1DD044D800C19364 /* Problem14.swift */; };
 		492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492DE93C1D94D4B7002DB1D7 /* Problem5.swift */; };
 		493206ED1D94C89B00268E3C /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493206EC1D94C89B00268E3C /* Problem4.swift */; };
+		4939D1211E0F8DFB00B8F539 /* Problem22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4939D1201E0F8DFB00B8F539 /* Problem22.swift */; };
 		495321BB1DD1383F00035D54 /* Problem15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495321BA1DD1383F00035D54 /* Problem15.swift */; };
 		495321BE1DD2884000035D54 /* Problem16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495321BD1DD2884000035D54 /* Problem16.swift */; };
 		495321C11DD28B5E00035D54 /* Problem17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495321C01DD28B5E00035D54 /* Problem17.swift */; };
@@ -29,10 +30,8 @@
 		49F21D4C1E0BA5A600AA36B6 /* Problem20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F21D4B1E0BA5A600AA36B6 /* Problem20.swift */; };
 		49F21D4F1E0BA78C00AA36B6 /* Problem21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */; };
 		49F63E4F1DE0E8BB00C44698 /* Problem18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F63E4E1DE0E8BB00C44698 /* Problem18.swift */; };
-		49F63E511DE0EBFE00C44698 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F63E501DE0EBFE00C44698 /* Node.swift */; };
 		49F793301DD0387200FD6217 /* IntUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7932F1DD0387200FD6217 /* IntUtility.swift */; };
 		49F793321DD039F500FD6217 /* Problem13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F793311DD039F500FD6217 /* Problem13.swift */; };
-		E211B912616E6EC9B32F8508 /* Pods_ProjectEulerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B730F1A41C089B27ED25CDE /* Pods_ProjectEulerSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +52,8 @@
 		4922205E1DD044D800C19364 /* Problem14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem14.swift; sourceTree = "<group>"; };
 		492DE93C1D94D4B7002DB1D7 /* Problem5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
 		493206EC1D94C89B00268E3C /* Problem4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4.swift; sourceTree = "<group>"; };
+		4939D1201E0F8DFB00B8F539 /* Problem22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem22.swift; sourceTree = "<group>"; };
+		4948C1771E0F905D00AEF376 /* namesProblem22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = namesProblem22.txt; sourceTree = "<group>"; };
 		495321BA1DD1383F00035D54 /* Problem15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem15.swift; sourceTree = "<group>"; };
 		495321BC1DD2878900035D54 /* Problem15.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Problem15.py; sourceTree = "<group>"; };
 		495321BD1DD2884000035D54 /* Problem16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem16.swift; sourceTree = "<group>"; };
@@ -77,12 +78,8 @@
 		49F21D4D1E0BA5CF00AA36B6 /* Problem20.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Problem20.py; sourceTree = "<group>"; };
 		49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem21.swift; sourceTree = "<group>"; };
 		49F63E4E1DE0E8BB00C44698 /* Problem18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem18.swift; sourceTree = "<group>"; };
-		49F63E501DE0EBFE00C44698 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		49F7932F1DD0387200FD6217 /* IntUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntUtility.swift; sourceTree = "<group>"; };
 		49F793311DD039F500FD6217 /* Problem13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem13.swift; sourceTree = "<group>"; };
-		6B730F1A41C089B27ED25CDE /* Pods_ProjectEulerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEulerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72B73011AAE8F3738AF5DE1A /* Pods-ProjectEulerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEulerSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectEulerSwift/Pods-ProjectEulerSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		CFA052183A3AE8B2BBC20F41 /* Pods-ProjectEulerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEulerSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectEulerSwift/Pods-ProjectEulerSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,29 +87,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E211B912616E6EC9B32F8508 /* Pods_ProjectEulerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147413A667EAEAEC15D7B9BE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				72B73011AAE8F3738AF5DE1A /* Pods-ProjectEulerSwift.debug.xcconfig */,
-				CFA052183A3AE8B2BBC20F41 /* Pods-ProjectEulerSwift.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		49C1BB201D90DD8E00F48B3C = {
 			isa = PBXGroup;
 			children = (
 				49C1BB2B1D90DD8E00F48B3C /* ProjectEulerSwift */,
 				49C1BB2A1D90DD8E00F48B3C /* Products */,
-				147413A667EAEAEC15D7B9BE /* Pods */,
-				BED2EA9E9A8835E5A4215D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,7 +115,6 @@
 				49C1BB2C1D90DD8E00F48B3C /* main.swift */,
 				49F7932F1DD0387200FD6217 /* IntUtility.swift */,
 				49D1C2491DC183B600EEF114 /* StringUtility.swift */,
-				49F63E501DE0EBFE00C44698 /* Node.swift */,
 				49C1BB331D90DDFE00F48B3C /* Problem1.swift */,
 				49C1BB351D90E33300F48B3C /* Problem2.swift */,
 				49C1BB371D90E61200F48B3C /* Problem3.swift */,
@@ -158,16 +142,10 @@
 				49F21D4B1E0BA5A600AA36B6 /* Problem20.swift */,
 				49F21D4D1E0BA5CF00AA36B6 /* Problem20.py */,
 				49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */,
+				4939D1201E0F8DFB00B8F539 /* Problem22.swift */,
+				4948C1771E0F905D00AEF376 /* namesProblem22.txt */,
 			);
 			path = ProjectEulerSwift;
-			sourceTree = "<group>";
-		};
-		BED2EA9E9A8835E5A4215D81 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6B730F1A41C089B27ED25CDE /* Pods_ProjectEulerSwift.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +155,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49C1BB301D90DD8E00F48B3C /* Build configuration list for PBXNativeTarget "ProjectEulerSwift" */;
 			buildPhases = (
-				76615ED6C417DB326729DAC8 /* [CP] Check Pods Manifest.lock */,
 				49C1BB251D90DD8E00F48B3C /* Sources */,
 				49C1BB261D90DD8E00F48B3C /* Frameworks */,
 				49C1BB271D90DD8E00F48B3C /* CopyFiles */,
-				E66412E6E0B8E1050432F579 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,39 +202,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		76615ED6C417DB326729DAC8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E66412E6E0B8E1050432F579 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectEulerSwift/Pods-ProjectEulerSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		49C1BB251D90DD8E00F48B3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,8 +210,8 @@
 				49F793301DD0387200FD6217 /* IntUtility.swift in Sources */,
 				49D1C2481DC1809500EEF114 /* Problem8.swift in Sources */,
 				49C1BB361D90E33300F48B3C /* Problem2.swift in Sources */,
-				49F63E511DE0EBFE00C44698 /* Node.swift in Sources */,
 				49F63E4F1DE0E8BB00C44698 /* Problem18.swift in Sources */,
+				4939D1211E0F8DFB00B8F539 /* Problem22.swift in Sources */,
 				49F21D4C1E0BA5A600AA36B6 /* Problem20.swift in Sources */,
 				49D1C2461DC17C1B00EEF114 /* Problem7.swift in Sources */,
 				49C58B6D1DC3C11800025745 /* Problem11.swift in Sources */,
@@ -388,9 +331,9 @@
 		};
 		49C1BB311D90DD8E00F48B3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B73011AAE8F3738AF5DE1A /* Pods-ProjectEulerSwift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -398,9 +341,9 @@
 		};
 		49C1BB321D90DD8E00F48B3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA052183A3AE8B2BBC20F41 /* Pods-ProjectEulerSwift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

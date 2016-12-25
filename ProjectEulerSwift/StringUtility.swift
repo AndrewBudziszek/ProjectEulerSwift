@@ -39,6 +39,11 @@ extension String {
         return substring(startIndex, startIndex + length - 1)
     }
     
+    func replace(target: String, withString: String) -> String
+    {
+        return self.replacingOccurrences(of: target, with: withString, options: NSString.CompareOptions.literal, range: nil)
+    }
+    
     //TODO
     func stringParse(_ startIndex: Int, fromString: String, toString: String, keepFromString: Bool, keepToString: Bool) -> String {
         var retString = self.substring(startIndex)
@@ -63,4 +68,10 @@ extension String {
         return -1
     }
     
+}
+
+extension Character {
+    var asciiValue: UInt32? {
+        return String(self).unicodeScalars.filter{$0.isASCII}.first?.value
+    }
 }
