@@ -15,6 +15,7 @@
 		495321BB1DD1383F00035D54 /* Problem15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495321BA1DD1383F00035D54 /* Problem15.swift */; };
 		495321BE1DD2884000035D54 /* Problem16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495321BD1DD2884000035D54 /* Problem16.swift */; };
 		495321C11DD28B5E00035D54 /* Problem17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495321C01DD28B5E00035D54 /* Problem17.swift */; };
+		49A1EC411E10B19B009A2E71 /* Problem23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A1EC401E10B19B009A2E71 /* Problem23.swift */; };
 		49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB2C1D90DD8E00F48B3C /* main.swift */; };
 		49C1BB341D90DDFE00F48B3C /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB331D90DDFE00F48B3C /* Problem1.swift */; };
 		49C1BB361D90E33300F48B3C /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1BB351D90E33300F48B3C /* Problem2.swift */; };
@@ -32,6 +33,7 @@
 		49F63E4F1DE0E8BB00C44698 /* Problem18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F63E4E1DE0E8BB00C44698 /* Problem18.swift */; };
 		49F793301DD0387200FD6217 /* IntUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7932F1DD0387200FD6217 /* IntUtility.swift */; };
 		49F793321DD039F500FD6217 /* Problem13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F793311DD039F500FD6217 /* Problem13.swift */; };
+		49FF3D161E1B3276002E97D6 /* Problem24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF3D151E1B3276002E97D6 /* Problem24.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +61,7 @@
 		495321BD1DD2884000035D54 /* Problem16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem16.swift; sourceTree = "<group>"; };
 		495321BF1DD28AC300035D54 /* Problem16.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Problem16.py; sourceTree = "<group>"; };
 		495321C01DD28B5E00035D54 /* Problem17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem17.swift; sourceTree = "<group>"; };
+		49A1EC401E10B19B009A2E71 /* Problem23.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem23.swift; sourceTree = "<group>"; };
 		49C1BB291D90DD8E00F48B3C /* ProjectEulerSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C1BB2C1D90DD8E00F48B3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49C1BB331D90DDFE00F48B3C /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 		49F63E4E1DE0E8BB00C44698 /* Problem18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem18.swift; sourceTree = "<group>"; };
 		49F7932F1DD0387200FD6217 /* IntUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntUtility.swift; sourceTree = "<group>"; };
 		49F793311DD039F500FD6217 /* Problem13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem13.swift; sourceTree = "<group>"; };
+		49FF3D151E1B3276002E97D6 /* Problem24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem24.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 				49F21D4E1E0BA78C00AA36B6 /* Problem21.swift */,
 				4939D1201E0F8DFB00B8F539 /* Problem22.swift */,
 				4948C1771E0F905D00AEF376 /* namesProblem22.txt */,
+				49A1EC401E10B19B009A2E71 /* Problem23.swift */,
+				49FF3D151E1B3276002E97D6 /* Problem24.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				49D1C24A1DC183B600EEF114 /* StringUtility.swift in Sources */,
 				493206ED1D94C89B00268E3C /* Problem4.swift in Sources */,
 				49D1C2441DC1782D00EEF114 /* Problem6.swift in Sources */,
+				49A1EC411E10B19B009A2E71 /* Problem23.swift in Sources */,
 				49F21D4A1E0B983400AA36B6 /* Problem19.swift in Sources */,
 				495321C11DD28B5E00035D54 /* Problem17.swift in Sources */,
 				49F21D4F1E0BA78C00AA36B6 /* Problem21.swift in Sources */,
@@ -230,6 +237,7 @@
 				495321BE1DD2884000035D54 /* Problem16.swift in Sources */,
 				4922205F1DD044D800C19364 /* Problem14.swift in Sources */,
 				49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */,
+				49FF3D161E1B3276002E97D6 /* Problem24.swift in Sources */,
 				49C1BB341D90DDFE00F48B3C /* Problem1.swift in Sources */,
 				49F793321DD039F500FD6217 /* Problem13.swift in Sources */,
 			);

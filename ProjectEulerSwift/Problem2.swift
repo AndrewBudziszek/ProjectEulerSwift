@@ -11,23 +11,23 @@
 // By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 //
 
-class Problem2{
+func p2() -> Int {
+    return FibonacciThis(upTo: 4000000)
+}
+
+func FibonacciThis(upTo: Int) -> Int {
+    var sum = 0
+    var last = 1
+    var current = 2
     
-    func FibonacciThis(upTo: Int) -> Int {
-        var sum = 0
-        var last = 1
-        var current = 2
-        
-        while(current < upTo){
-            if current % 2 == 0 {
-                sum += current
-            }
-            let temp = last + current
-            last = current
-            current = temp
+    while(current < upTo){
+        if current % 2 == 0 {
+            sum += current
         }
-        
-        return sum
+        let temp = last + current
+        last = current
+        current = temp
     }
     
+    return sum
 }

@@ -11,13 +11,13 @@
 //  Find the sum of all the multiples of 3 or 5 below 1000
 //
 
-class Problem1 {
-    
-    func sumMultiples(upTo: Int) -> Int {
-        if(upTo < 3){
-            return 0
-        }
-        return upTo % 3 == 0 || upTo % 5 == 0 ? sumMultiples(upTo: upTo - 1) + upTo : sumMultiples(upTo: upTo - 1)
+func p1() -> Int {
+    return sumMultiples(upTo: 999)
+}
+
+func sumMultiples(upTo: Int) -> Int {
+    if(upTo < 3){
+        return 0
     }
-    
+    return upTo % 3 == 0 || upTo % 5 == 0 ? sumMultiples(upTo: upTo - 1) + upTo : sumMultiples(upTo: upTo - 1)
 }

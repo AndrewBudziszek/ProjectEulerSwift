@@ -8,25 +8,22 @@
 import Foundation
 var start = DispatchTime.now()
 
+
 /*
 //Problem 1
-let p1 = Problem1()
-print("Problem 1: \(p1.sumMultiples(upTo: 999)) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+print("Problem 1: \(p1()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
 //Problem 2
 start = DispatchTime.now()
-let p2 = Problem2()
-print("Problem 2: \(p2.FibonacciThis(upTo: 4000000)) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+print("Problem 2: \(p2()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
 //Problem 3
 start = DispatchTime.now()
-let p3 = Problem3()
-print("Problem 3: \(p3.largestPrimeFactor(n: 600851475143)) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+print("Problem 3: \(p3()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
 //Problem 4
 start = DispatchTime.now()
-let p4 = Problem4()
-print("Problem 4: \(p4.LargestPalindromeProduct3Digits()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+print("Problem 4: \(p4()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
 //Problem 5
 start = DispatchTime.now()
@@ -114,7 +111,6 @@ start = DispatchTime.now()
 let p21 = Problem21()
 
 print("Problem 21: \(p21.AmicableNumbers()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
-*/
 
 //Problem22
 start = DispatchTime.now()
@@ -122,4 +118,15 @@ let p22 = Problem22()
 
 print("Problem 22: \(p22.nameScores()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
+//Problem23
+start = DispatchTime.now()
+let p23 = Problem23()
+
+print("Problem 23: \(p23.NonAbundantSums()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+*/
+
+//Problem24
+start = DispatchTime.now()
+
+print("Problem 24: \(p24()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 

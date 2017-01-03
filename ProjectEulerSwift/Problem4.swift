@@ -12,21 +12,22 @@
 
 import Foundation
 
-class Problem4 {
+func p4() -> Int {
+    return LargestPalindromeProduct3Digits()
+}
+
+private func LargestPalindromeProduct3Digits() -> Int {
+    var largestPalindrome = -1
     
-    func LargestPalindromeProduct3Digits() -> Int {
-        var largestPalindrome = -1
-        
-        for i in 100...999{
-            for j in stride(from: 999, to: 100, by: -1){
-                if String(String(i * j).characters.reversed()) == String(String(i * j).characters){
-                    if i * j > largestPalindrome{
-                        largestPalindrome = i * j
-                    }
+    for i in 100...999{
+        for j in stride(from: 999, to: 100, by: -1){
+            if String(String(i * j).characters.reversed()) == String(String(i * j).characters){
+                if i * j > largestPalindrome{
+                    largestPalindrome = i * j
                 }
             }
         }
-        return largestPalindrome
     }
-    
+    return largestPalindrome
 }
+
