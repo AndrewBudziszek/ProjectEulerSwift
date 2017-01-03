@@ -34,6 +34,7 @@
 		49F793301DD0387200FD6217 /* IntUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7932F1DD0387200FD6217 /* IntUtility.swift */; };
 		49F793321DD039F500FD6217 /* Problem13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F793311DD039F500FD6217 /* Problem13.swift */; };
 		49FF3D161E1B3276002E97D6 /* Problem24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF3D151E1B3276002E97D6 /* Problem24.swift */; };
+		49FF3D191E1B4D7B002E97D6 /* Problem25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF3D181E1B4D7B002E97D6 /* Problem25.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +85,8 @@
 		49F7932F1DD0387200FD6217 /* IntUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntUtility.swift; sourceTree = "<group>"; };
 		49F793311DD039F500FD6217 /* Problem13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem13.swift; sourceTree = "<group>"; };
 		49FF3D151E1B3276002E97D6 /* Problem24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem24.swift; sourceTree = "<group>"; };
+		49FF3D171E1B4D71002E97D6 /* Problem25.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Problem25.py; sourceTree = "<group>"; };
+		49FF3D181E1B4D7B002E97D6 /* Problem25.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem25.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				4948C1771E0F905D00AEF376 /* namesProblem22.txt */,
 				49A1EC401E10B19B009A2E71 /* Problem23.swift */,
 				49FF3D151E1B3276002E97D6 /* Problem24.swift */,
+				49FF3D171E1B4D71002E97D6 /* Problem25.py */,
+				49FF3D181E1B4D7B002E97D6 /* Problem25.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				49C1BB381D90E61200F48B3C /* Problem3.swift in Sources */,
 				492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */,
 				495321BE1DD2884000035D54 /* Problem16.swift in Sources */,
+				49FF3D191E1B4D7B002E97D6 /* Problem25.swift in Sources */,
 				4922205F1DD044D800C19364 /* Problem14.swift in Sources */,
 				49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */,
 				49FF3D161E1B3276002E97D6 /* Problem24.swift in Sources */,

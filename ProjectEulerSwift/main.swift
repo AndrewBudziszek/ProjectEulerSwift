@@ -123,10 +123,15 @@ start = DispatchTime.now()
 let p23 = Problem23()
 
 print("Problem 23: \(p23.NonAbundantSums()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
-*/
 
 //Problem24
 start = DispatchTime.now()
 
 print("Problem 24: \(p24()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+*/
+
+//Problem25
+start = DispatchTime.now()
+
+print("Problem 25: \(p25()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
