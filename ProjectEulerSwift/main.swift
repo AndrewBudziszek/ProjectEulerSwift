@@ -128,10 +128,20 @@ print("Problem 23: \(p23.NonAbundantSums()) (\(Double(DispatchTime.now().uptimeN
 start = DispatchTime.now()
 
 print("Problem 24: \(p24()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
-*/
 
 //Problem25
 start = DispatchTime.now()
 
 print("Problem 25: \(p25()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem26
+start = DispatchTime.now()
+
+print("Problem 26: \(p26()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+*/
+
+//Problem27
+start = DispatchTime.now()
+
+print("Problem 27: \(p27()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
 
