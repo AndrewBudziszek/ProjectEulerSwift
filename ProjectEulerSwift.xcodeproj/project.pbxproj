@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		490B386C1DCAFC3200130FA5 /* Problem12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B386B1DCAFC3200130FA5 /* Problem12.swift */; };
 		4922205F1DD044D800C19364 /* Problem14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922205E1DD044D800C19364 /* Problem14.swift */; };
+		492632CF1E3704CB004F83CA /* Problem29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492632CE1E3704CB004F83CA /* Problem29.swift */; };
+		492632D11E3705D3004F83CA /* Problem30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492632D01E3705D3004F83CA /* Problem30.swift */; };
+		492632D41E370B83004F83CA /* Problem28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492632D31E370B83004F83CA /* Problem28.swift */; };
 		492DE93D1D94D4B7002DB1D7 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492DE93C1D94D4B7002DB1D7 /* Problem5.swift */; };
 		493206ED1D94C89B00268E3C /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493206EC1D94C89B00268E3C /* Problem4.swift */; };
 		4939D1211E0F8DFB00B8F539 /* Problem22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4939D1201E0F8DFB00B8F539 /* Problem22.swift */; };
@@ -55,6 +58,10 @@
 		490B386B1DCAFC3200130FA5 /* Problem12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem12.swift; sourceTree = "<group>"; };
 		4922205D1DD0437100C19364 /* Problem13.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Problem13.py; sourceTree = "<group>"; };
 		4922205E1DD044D800C19364 /* Problem14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem14.swift; sourceTree = "<group>"; };
+		492632CE1E3704CB004F83CA /* Problem29.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem29.swift; sourceTree = "<group>"; };
+		492632D01E3705D3004F83CA /* Problem30.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem30.swift; sourceTree = "<group>"; };
+		492632D21E3707F0004F83CA /* Problem29.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Problem29.py; sourceTree = "<group>"; };
+		492632D31E370B83004F83CA /* Problem28.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem28.swift; sourceTree = "<group>"; };
 		492DE93C1D94D4B7002DB1D7 /* Problem5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
 		493206EC1D94C89B00268E3C /* Problem4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4.swift; sourceTree = "<group>"; };
 		4939D1201E0F8DFB00B8F539 /* Problem22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem22.swift; sourceTree = "<group>"; };
@@ -161,6 +168,10 @@
 				49FF3D181E1B4D7B002E97D6 /* Problem25.swift */,
 				49F5D5EA1E2EF8D700AB7971 /* Problem26.swift */,
 				49F5D5EC1E2EFD8700AB7971 /* Problem27.swift */,
+				492632CE1E3704CB004F83CA /* Problem29.swift */,
+				492632D31E370B83004F83CA /* Problem28.swift */,
+				492632D21E3707F0004F83CA /* Problem29.py */,
+				492632D01E3705D3004F83CA /* Problem30.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -224,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492632CF1E3704CB004F83CA /* Problem29.swift in Sources */,
+				492632D41E370B83004F83CA /* Problem28.swift in Sources */,
 				49F793301DD0387200FD6217 /* IntUtility.swift in Sources */,
 				49D1C2481DC1809500EEF114 /* Problem8.swift in Sources */,
 				49F5D5EB1E2EF8D700AB7971 /* Problem26.swift in Sources */,
@@ -253,6 +266,7 @@
 				49C1BB2D1D90DD8E00F48B3C /* main.swift in Sources */,
 				49FF3D161E1B3276002E97D6 /* Problem24.swift in Sources */,
 				49C1BB341D90DDFE00F48B3C /* Problem1.swift in Sources */,
+				492632D11E3705D3004F83CA /* Problem30.swift in Sources */,
 				49F793321DD039F500FD6217 /* Problem13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

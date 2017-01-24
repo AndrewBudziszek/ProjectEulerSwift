@@ -138,10 +138,26 @@ print("Problem 25: \(p25()) (\(Double(DispatchTime.now().uptimeNanoseconds - sta
 start = DispatchTime.now()
 
 print("Problem 26: \(p26()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
-*/
 
 //Problem27
 start = DispatchTime.now()
 
 print("Problem 27: \(p27()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem28
+start = DispatchTime.now()
+
+print("Problem 28: \(p28()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem29
+start = DispatchTime.now()
+
+print("Problem 29: \(p29()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+
+//Problem30
+start = DispatchTime.now()
+
+print("Problem 30: \(p30()) (\(Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) * pow(10, -9))s)")
+ */
+
 
