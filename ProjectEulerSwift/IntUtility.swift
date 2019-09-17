@@ -22,8 +22,11 @@ extension Int {
         return self % 2 != 0
     }
     
+    //* 
+        Uses the  6k ± 1 Primality Test
+        Ref: https://en.wikipedia.org/wiki/Primality_test
+    *//
     func isPrime() -> Bool {
-        
         if self <= 1{
             return false
         }else if self <= 3{
